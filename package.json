@@ -1,0 +1,31 @@
+{
+  "name": "demo-calendar",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@toast-ui/calendar": "^2.1.3",
+    "@toast-ui/react-calendar": "^2.1.3",
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tui-date-picker": "^4.3.3",
+    "tui-time-picker": "^2.1.6"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.6",
+    "@types/node": "^18.13.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "sass": "^1.58.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
